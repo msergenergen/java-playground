@@ -1,0 +1,35 @@
+# IntelliJ IDEA project files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Maven target directory
+target/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.class
+*.swp
+*.swo
+*~
+
+# Eclipse / NetBeans (in case project is opened with them)
+.project
+.classpath
+.settings/
+nbproject/
+
+# Build outputs
+out/
+
+# Crash reports
+hs_err_pid*
+replay_pid*
+
