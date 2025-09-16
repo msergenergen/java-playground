@@ -1,7 +1,7 @@
 # Java Playground 🚀
 
 This repository is a **comprehensive Java study and interview preparation playground**.  
-It covers **fundamental concepts, advanced topics, design patterns, concurrency, and Joshua Bloch’s *Effective Java* best practices**.
+It covers **fundamental concepts, com.playground.advanced topics, design patterns, com.playground.concurrency, and Joshua Bloch’s *Effective Java* best practices**.
 
 ---
 
@@ -69,4 +69,3 @@ Clone the repo and explore each module:
 ```bash
 git clone https://github.com/<your-username>/java-playground.git
 cd java-playground
-
