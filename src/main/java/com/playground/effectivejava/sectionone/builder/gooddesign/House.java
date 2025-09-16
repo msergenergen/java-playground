@@ -4,10 +4,10 @@ import java.security.PublicKey;
 
 public class House {
 
-    private final int rooms;
-    private final boolean hasGarage;
-    private final boolean hasSwimmingPool;
-    private final boolean hasGarden;
+    private final int rooms; //mandatory
+    private final boolean hasGarage; //optional
+    private final boolean hasSwimmingPool; //optional
+    private final boolean hasGarden; //optional
 
     public static Builder builder(int rooms) {
         return new Builder(rooms);
