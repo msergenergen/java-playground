@@ -1,7 +1,5 @@
 package com.playground.effectivejava.sectionone.builder.gooddesign;
 
-import java.security.PublicKey;
-
 public class House {
 
     private final int rooms; //mandatory
