@@ -19,16 +19,16 @@ public final class Car {
         this.year = year;
     }
 
+    public static Car of(String brand, String model, FuelType fuelType, int year) {
+        return new Car(brand, model, fuelType, year);
+    }
+
     public static Car diesel(String brand, String model, int year) {
         return new Car(brand, model, FuelType.DIESEL, year);
     }
 
     public static Car electric(String brand, String model, int year) {
         return new Car(brand, model, FuelType.ELECTRIC, year);
-    }
-
-    public static Car of(String brand, String model, FuelType fuelType, int year) {
-        return new Car(brand, model, fuelType, year);
     }
 
     public static Car gasoline(String brand, String model, int year) {
