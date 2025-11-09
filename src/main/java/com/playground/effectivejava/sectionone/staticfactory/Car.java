@@ -3,8 +3,6 @@ package com.playground.effectivejava.sectionone.staticfactory;
 import lombok.Getter;
 import lombok.ToString;
 
-import java.util.Objects;
-
 @Getter
 @ToString
 public final class Car {
