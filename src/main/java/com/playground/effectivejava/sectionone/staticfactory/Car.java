@@ -12,11 +12,11 @@ public final class Car {
     private final FuelType fuelType;
     private final int year;
 
-    private Car(String brand, String brandModel, FuelType fuelType, int horsePower) {
+    private Car(String brand, String brandModel, FuelType fuelType, int year) {
         this.brand = brand;
         this.brandModel = brandModel;
         this.fuelType = fuelType;
-        this.year = horsePower;
+        this.year = year;
     }
 
     public static Car diesel(String brand, String model, int year) {
